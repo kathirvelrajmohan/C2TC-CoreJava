@@ -1,8 +1,11 @@
-package com.cg.dayone;
-import java.util.*;
-public class Basics {
+package com.cg.daytwo;
+
+import java.util.Scanner;
+
+public class Operators {
 
 	public static void main(String[] args) {
+		// TODO Auto-generated method stub
 		System.out.print("HI ");
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the number of test cases");
@@ -19,7 +22,7 @@ public class Basics {
 				a = b;
 				b = temp;
 			}
-			System.out.println("1. add , 2. sub 3. multiply, 4. division");
+			System.out.println("1. Add , 2. Difference 3. Multiply, 4. Division");
 			int t = sc.nextInt();
 			System.out.print("Your answer is: ");
 
